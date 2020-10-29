@@ -2,39 +2,48 @@
 <mjml>
     <mj-include path="./src/partials/header.mjml" />
 
-  <mj-body  border-width="2px" border-color="#DCDCDC">
+  <mj-body background-color="white" border-width="2px" border-color="#DCDCDC">
     <mj-section>
-      <mj-column width="20%" vertical-align="middle">
-        <mj-image width="100px" src="http://staging.aquaray.saas.hqhost.pl/img/logo_dark.jpg" />
+      <mj-column width="40%" vertical-align="middle">
+        <mj-image width="180px" src="https://modnepodlogi.dev.cogitech.pl/themes/modnepodlogi/src/image/Warstwa_2.png"></mj-image>
       </mj-column>
-      <mj-column width="80%" vertical-align="middle">
-        <mj-text mj-class="aqua title">
-          IMPORTER I DYSTRYBUTOR PROFESJONALNYCH PRODUKTÓW AKWARYSTYCZNYCH
-        </mj-text>
+      <mj-column padding-top="16px" width="100%">
+        <mj-text align="center" css-class="medium" font-size="16px">Witaj {firstname} {lastname}, <br />
+dziękujemy za utworzenie konta klienta na stronie {shop_name}.</mj-text>
       </mj-column>
-
-      <mj-column padding-top="38px" width="100%">
-        <mj-text  mj-class="aquaLight">
-          Dzień Dobry,<br />
-         
-            Twoje konto zostało stworzone.czeka na akceptacje test..
-        </mj-text>
-      </mj-column>
+      </mj-section>
+    <mj-section>
       <mj-column width="100%" padding-bottom="10px">
-       
-
+      	<mj-text mj-class="yellow" css-class="subtitle-yellow" font-size="14px">
+        	TWÓJ ADRES E-MAIL DO LOGOWANIA W SKLEPIE {SHOP_NAME}
+        </mj-text>
+        <mj-text>
+        	<span style="font-weight: 600">Adres e-mail: </span>{email}	
+        </mj-text>
       </mj-column>
-      <!-- END: Header -->
-      <!-- Header content -->
-      <!-- END: Header content -->
     </mj-section>
-
+    <mj-section>
+    	<mj-column width="100%" padding-bottom="10px">
+      	<mj-text mj-class="yellow" css-class="subtitle-yellow" font-size="14px">
+        	Ważne wskazówki dotyczące bezpieczeństwa
+        </mj-text>
+        <mj-text>
+        	<ol>
+          	<li>Zawsze trzymaj dane do Twojego konta w bezpiecznym miejscu.</li>
+            <li>Nigdy nie ujawniaj nikomu swojego loginu i hasła.</li>
+            <li>Regularnie zmieniaj swoje hasło.
+</li>
+            <li>Jeśli podejrzewasz, że ktoś używa Twojego konta nielegalnie, prosimy o natychmiastowe poinformowanie nas o tym.</li>
+          </ol>	
+        </mj-text>
+      </mj-column>
+    </mj-section>
     <mj-section>
       <mj-column>
-        <mj-divider border-width="1px" border-color="#DCDCDC" />
-      </mj-column />
+        <mj-text font-weight="600">Możesz teraz składać zamówienia w naszym sklepie: <a href="{shop_url}" style="color: black">{shop_name}</a>
+  </mj-text>
+      </mj-column>
     </mj-section>
-
     <!-- Footer -->
     <mj-section>
 
