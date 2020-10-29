@@ -1,29 +1,10 @@
- <mj-section>
-
-      <mj-column>
-        <mj-text  mj-class="aquaLight">
-          AQUARAY Hurtownia Akwarystyczna ul. Spółdzielcza 1, 78-300 Świdwin
-          NIP: PL 6721992035
-        </mj-text>
-      </mj-column>
-      <mj-column>
-        <mj-text padding-bottom="0px" mj-class="blue bold">
-          Nr telefonu: 
-                    <a href="mailto: hurt@aquaray.pl" style="font-weight:400;  color:#012E48; text-decoration: none">  515164361</a>
-
-        
-        </mj-text>
-
-        <mj-text padding-bottom="0px"  mj-class="blue bold">
-          E-mail: 
-          <a href="mailto: hurt@aquaray.pl" style=" font-weight:400; color:#012E48; text-decoration: none">hurt@aquaray.pl</a>
-        </mj-text />
-        <mj-text  padding-bottom="0px" mj-class="blue bold">
-          Strona: 
-          <a href="http://www.aquaray.pl/" style="font-weight:400; color:#012E48;text-decoration: none">www.aquaray.pl</a>
-        </mj-text />
-
-
+    <mj-section>
+      <mj-column width="100%">
+        <mj-text font-weight="600" font-size="14px">Obsługa sklepu internetowego</mj-text>
+        <mj-text padding-bottom="0px" font-size="14px" mj-class=" bold">Nr telefonu:
+          <a href="tel: 458552369" style="font-weight:500;  color:#2A1D39; text-decoration: none">  458552369</a></mj-text>
+        <mj-text padding-bottom="0px" font-size="14px" mj-class="bold">E-mail:
+          <a href="mailto: sklep@modnepodlogi.pl" style=" font-weight:500; color:#2A1D39; text-decoration: none">sklep@modnepodlogi.pl</a></mj-text>
+        <mj-text font-size="14px"><a href="" style="font-weight:500;  color:#2A1D39;"> Regulamin sklepu</a></mj-text>
       </mj-column>
     </mj-section>
-

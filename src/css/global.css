@@ -1,4 +1,5 @@
 /**** Global ****/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&display=swap');
 
 
 .mj-inline-links a, .mj-inline-links a span{color: #ffffff !important;}
@@ -11,9 +12,9 @@ ul li:last-child{padding-bottom: 0}
 ul li a{display: block;}
 
 /**** Order Conf ***/
-th{font-size: 13px; color: #414a56; font-weight: bold; width: 20% !important; font-family: Arial !important;}
+th{font-size: 13px; color: #414a56; font-weight: bold; width: 20% !important; font-family: 'Montserrat' !important;}
 
-table.table-list{font-family: Arial !important;}
+table.table-list{font-family: 'Montserrat' !important;}
 table.table-list tr{background-color: #f8f8f8 !important;}
 table.table-list tr td{border: none !important; border-bottom: 1px solid #D6D4D4 !important; width: 20% !important; color: #919191 !important; padding-left: 10px !important;}
 table.table-list tr td:first-child{text-align: left !important;}

@@ -1,0 +1,10 @@
+<mj-section>
+  <mj-column width="90%">
+    <mj-text font-weight="600" font-size="14px">Obsługa sklepu internetowego</mj-text>
+    <mj-text padding-bottom="0px" font-size="14px" mj-class=" bold">Nr telefonu:
+      <a href="mailto: hurt@aquaray.pl" style="font-weight:400;  color:#2A1D39; text-decoration: none"> 458552369</a></mj-text>
+    <mj-text padding-bottom="0px" font-size="14px" mj-class="blue bold">E-mail:
+      <a href="mailto: hurt@aquaray.pl" style=" font-weight:400; color:#2A1D39; text-decoration: none">sklep@modnepodlogi.pl</a></mj-text>
+    <mj-text font-size="14px"><a href="" style="font-weight:400;  color:#2A1D39;"> Regulamin sklepu</a></mj-text>
+  </mj-column>
+</mj-section>
