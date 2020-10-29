@@ -1,67 +1,71 @@
 <mjml>
     <mj-include path="./src/partials/header.mjml" />
     
- <mj-body  background-color="white"  border-width="2px" border-color="#DCDCDC">
+ <mj-body background-color="white" border-width="2px" border-color="#DCDCDC">
 
 <mj-section>
-      <mj-column width="20%" vertical-align="middle">
-        <mj-image width="100px" src="http://staging.aquaray.saas.hqhost.pl/img/logo_dark.jpg" />
+      <mj-column width="50%" vertical-align="middle">
+        <mj-image width="182px" src="https://modnepodlogi.dev.cogitech.pl/themes/modnepodlogi/src/image/Warstwa_2.png" />
       </mj-column>
       <mj-column width="80%" vertical-align="middle">
-        <mj-text mj-class="aqua title">
-          IMPORTER I DYSTRYBUTOR PROFESJONALNYCH PRODUKTÓW AKWARYSTYCZNYCH
-        </mj-text>
       </mj-column>
 
-             <mj-column padding-top="38px" width="100%">
-              <mj-text  mj-class="aquaLight">
-                Dzień Dobry, {company}<br />
-         
-                    <mj-text mj-class="title-hero">${{ lang.order_order_name }}$ - ${{ lang.shipped }}$</mj-text>
-                    <mj-divider mj-class="title-divider-hero"></mj-divider>
-                    <mj-text>${{ lang.your_order_with_the_reference_order_name_has_been_shipped }}$</mj-text>
-                    <mj-spacer height="20px" />
-                    <mj-text padding-bottom="15px">${{ lang.thank_you_for_shopping_with_shop_name }}$</mj-text>
-          
-
+      <mj-column padding-top="38px" width="100%">
+      <mj-text  mj-class="aquaLight" align="center" font-size="16px">
+        Witaj {FIRSTNAME} {LASTNAME},<br />
+        Informujemy, iż zamówienie nr {} zostało wysłane.
+  
+            <!-- <mj-text mj-class="title-hero">${{ lang.order_order_name }}$ - ${{ lang.shipped }}$</mj-text>
+            <mj-divider mj-class="title-divider-hero"></mj-divider>
+            <mj-text>${{ lang.your_order_with_the_reference_order_name_has_been_shipped }}$</mj-text>
+            <mj-spacer height="20px" />
+            <mj-text padding-bottom="15px">${{ lang.thank_you_for_shopping_with_shop_name }}$</mj-text> -->
         </mj-text>
       </mj-column>
       <mj-column width="100%" padding-bottom="10px">
            <mj-include path="./src/partials/account.mjml" />
 
             <mj-include path="./src/partials/guest_to_customer.mjml" />
-
+      
       </mj-column>
 
         
-            </mj-column>
+      </mj-column>
 
-          </mj-section>
+    </mj-section>
+    <mj-section>
+      <mj-column width="90%">
+        <mj-text font-size="14px" padding-bottom="32px">
+        Już niedługo paczka do Ciebie dotrze. Możesz śledzić swoje zamówienie pod tym linkiem:
+      </mj-text>
+      <mj-text padding-bottom="32px" align="center" font-size="14px" mj-class=" bold">
+        <mj-button  href="" style="font-weight:600; background-color: #DEA341; padding: 16px 48px; font-size: 16px; text-transform: uppercase; color: #000; text-decoration: none" >śledź zamówienie</mj-button>
+      </mj-text>
+      <mj-text font-size="14px">
+        Dziękujemy i zapraszamy ponownie :)
+      </mj-text>
+      </mj-column>
+    </mj-section>
     <!-- Footer -->
    <mj-section>
-      <mj-column>
-        <mj-text  mj-class="aquaLight">
-          AQUARAY Hurtownia Akwarystyczna ul. Spółdzielcza 1, 78-300 Świdwin
-          NIP: PL 6721992035
+      <mj-column width="90%">
+        <mj-text font-weight="600" font-size="14px"> 
+          Obsługa sklepu internetowego  
         </mj-text>
-      </mj-column>
-      <mj-column>
-        <mj-text padding-bottom="0px" mj-class="blue bold">
-          Nr telefonu: 
-                    <a href="mailto: hurt@aquaray.pl" style="font-weight:400;  color:#012E48; text-decoration: none">  515164361</a>
+        <mj-text padding-bottom="0px" font-size="14px" mj-class=" bold">
+          Nr telefonu:
+                    <a href="mailto: hurt@aquaray.pl" style="font-weight:400;  color:#2A1D39; text-decoration: none">  458552369</a>
 
         
         </mj-text>
 
-        <mj-text padding-bottom="0px"  mj-class="blue bold">
+        <mj-text padding-bottom="0px" font-size="14px" mj-class="blue bold">
           E-mail: 
-          <a href="mailto: hurt@aquaray.pl" style=" font-weight:400; color:#012E48; text-decoration: none">hurt@aquaray.pl</a>
+          <a href="mailto: hurt@aquaray.pl" style=" font-weight:400; color:#2A1D39; text-decoration: none">sklep@modnepodlogi.pl</a>
         </mj-text />
-        <mj-text  padding-bottom="0px" mj-class="blue bold">
-          Strona: 
-          <a href="http://www.aquaray.pl/" style="font-weight:400; color:#012E48;text-decoration: none">www.aquaray.pl</a>
-        </mj-text />
-
+        <mj-text font-size="14px">
+          <a href="" style="font-weight:400;  color:#2A1D39;"> Regulamin sklepu</a>
+        </mj-text>
 
       </mj-column>
     </mj-section>

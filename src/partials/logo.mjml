@@ -2,7 +2,7 @@
   <tr>
     <td align="center">
       <a href="{shop_url}" target="_blank">
-        <img alt="{shop_name}" title="{shop_name}" height="auto" src="{shop_logo}" style="border:none;border-radius:;display:block;outline:none;text-decoration:none;width:100%;height:auto;max-width:350px;">
+        <img alt="{shop_name}" title="{shop_name}" height="auto" src="{shop_logo}" style="border:none;display:block;outline:none;text-decoration:none;width:100%;height:auto;max-width:350px;">
       </a>
     </td>
   </tr>
