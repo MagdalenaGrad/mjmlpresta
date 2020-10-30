@@ -1,28 +1,54 @@
 <mjml>
     <mj-include path="./src/partials/header.mjml" />
     <mj-body>
-        <mj-container mj-class="body">
+        <mj-container mj-class="body" background-color="white">
 
-            <mj-spacer height="25px" />
+<mj-section>
+      <mj-column width="50%" vertical-align="middle">
+        <mj-image width="182px" src="https://modnepodlogi.dev.cogitech.pl/themes/modnepodlogi/src/image/Warstwa_2.png" />
+      </mj-column>
+      <mj-column width="80%" vertical-align="middle">
+      </mj-column>
 
-            <mj-section mj-class="section">
-                <mj-column width="100%">
+      <mj-column padding-top="38px" width="100%">
+      <mj-text  mj-class="aquaLight" align="center" font-size="16px">
+        Witaj {FIRSTNAME} {LASTNAME},<br />
+        ${{ lang.your_order_with_the_reference_order_name_has_been_shipped }}$
+  
+            <!-- <mj-text mj-class="title-hero">${{ lang.order_order_name }}$ - ${{ lang.shipped }}$</mj-text>
+            <mj-divider mj-class="title-divider-hero"></mj-divider>
+            <mj-text>${{ lang.your_order_with_the_reference_order_name_has_been_shipped }}$</mj-text>
+            <mj-spacer height="20px" />
+            <mj-text padding-bottom="15px">${{ lang.thank_you_for_shopping_with_shop_name }}$</mj-text> -->
+        </mj-text>
+      </mj-column>
+      <mj-column width="100%" padding-bottom="10px">
+           <mj-include path="./src/partials/account.mjml" />
 
-                    <mj-include path="./src/partials/logo.mjml" />
+            <mj-include path="./src/partials/guest_to_customer.mjml" />
+      
+      </mj-column>
 
-                    <mj-text mj-class="title">${{ lang.hi_firstname_lastname }}$</mj-text>
-                </mj-column>
-            </mj-section>
+        
+      </mj-column>
 
-            <mj-section mj-class="section">
-                <mj-column mj-class="background-hero">
-                    <mj-text mj-class="title-hero">${{ lang.order_order_name }}$ - ${{ lang.shipped }}$</mj-text>
-                    <mj-divider mj-class="title-divider-hero"></mj-divider>
-                    <mj-text>${{ lang.your_order_with_the_reference_order_name_has_been_shipped }}$</mj-text>
-                    <mj-spacer height="20px" />
-                    <mj-text padding-bottom="15px">${{ lang.thank_you_for_shopping_with_shop_name }}$</mj-text>
-                </mj-column>
-            </mj-section>
+    </mj-section>
+    <mj-section>
+      <mj-column width="90%">
+        <mj-text font-size="14px" padding-bottom="32px">
+        Już niedługo paczka do Ciebie dotrze. Możesz śledzić swoje zamówienie pod tym linkiem:
+      </mj-text>
+      <mj-text padding-bottom="32px" align="center" font-size="14px" mj-class=" bold">
+        <mj-button  href="${{ lang.followup }}$" style="font-weight:600; background-color: #DEA341; padding: 16px 48px; font-size: 16px; text-transform: uppercase; color: #000; text-decoration: none" >śledź zamówienie</mj-button>
+      </mj-text>
+      <mj-text font-size="14px">
+        Dziękujemy i zapraszamy ponownie :)
+      </mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- Footer -->
+   <mj-section>
+    </mj-section>
 
             <mj-include path="./src/partials/account.mjml" />
 
