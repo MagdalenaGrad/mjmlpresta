@@ -39,7 +39,7 @@
         Już niedługo paczka do Ciebie dotrze. Możesz śledzić swoje zamówienie pod tym linkiem:
       </mj-text>
       <mj-text padding-bottom="32px" align="center" font-size="14px" mj-class=" bold">
-        <mj-button  href="${{ lang.followup }}$" style="font-weight:600; background-color: #DEA341; padding: 16px 48px; font-size: 16px; text-transform: uppercase; color: #000; text-decoration: none" >śledź zamówienie</mj-button>
+        <a href="${{ lang.followup }}$" style="font-weight:600; background-color: #DEA341; padding: 16px 48px; font-size: 16px; text-transform: uppercase; color: #000; text-decoration: none" >track order</a>
       </mj-text>
       <mj-text font-size="14px">
         Dziękujemy i zapraszamy ponownie :)

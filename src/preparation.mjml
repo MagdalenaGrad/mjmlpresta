@@ -18,7 +18,7 @@
     <mj-section>
     	<mj-column>
       	<mj-text>Możesz obejrzeć swoje zamówienie i pobrać fakturę na stronie <a href="{shop_url}/historia-zamowien" style="font-weight: 500; color: #2A1D39">Historia zamówień</a> logując się na swoje konto klienta za pomocą strony <a href="{shop_url}/moje-konto" style="font-weight: 500; color: #2A1D39">Moje konto</a> w naszym sklepie.
-Jeśli posiadasz konto gościa, możesz śledzić swoje zamówienie w sekcji "Śledzenie zamówienia".</mj-text>
+Jeśli posiadasz konto gościa, możesz sledzić swoje zamówienie w sekcji "track order".</mj-text>
       </mj-column>
     </mj-section>
             <mj-include path="./src/partials/account.mjml" />
