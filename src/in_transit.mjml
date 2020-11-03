@@ -1,11 +1,52 @@
+  
 <mjml>
     <mj-include path="./src/partials/header.mjml" />
-    <mj-body>
-   <mj-section mj-class="section">
-        <mj-column>
-            <mj-text>
-                TEST
-            </mj-text>
-        </mj-column>
+    <mj-body  background-color="white" mj-class="montserrat" font-family="Montserrat">
+        <mj-container  background-color="white" mj-class="montserrat" font-family="Montserrat">
+
+            <mj-spacer height="25px" />
+
+            <mj-section>
+                <mj-column width="100%">
+                    <mj-table>
+                        <tr>
+                            <td align="center">
+                            <a href="{shop_url}" target="_blank">
+                                <img alt="{shop_name}" title="{shop_name}" src="{shop_logo}"/>
+                            </a>
+                            </td>
+                        </tr>
+                    </mj-table>
+                    <mj-text font-size="16px" align="center">${{ lang.hi_firstname_lastname }}$</mj-text>
+                </mj-column>
+            </mj-section>
+
+            <mj-section>
+                <mj-column>
+                    <mj-text align="center" color="#DEA341" css-class="subtitle-yellow">${{ lang.order_order_name }}$ - ${{ lang.in_transit }}$</mj-text>
+                    <mj-text>${{ lang.your_order_with_the_reference_order_name_is_currently_in_transit }}$</mj-text>
+                    <mj-spacer height="20px" />
+                    <mj-text>${{ lang.you_can_track_your_package_using_the_following_link }}$</mj-text>
+                    <mj-text padding-bottom="15px" padding-top="32px" align="center">
+                        <a href="${{ lang.followup }}$" target="_blank" style="font-weight:600; background-color: #DEA341; padding: 16px 48px; font-size: 16px; text-transform: uppercase; color: #000; text-decoration: none">${{ lang.followup }}$</a>
+                    </mj-text>
+                </mj-column>
+            </mj-section>
+            <mj-section>
+                <mj-column width="100%">
+                    <mj-text font-weight="600" font-size="14px">Obsługa sklepu internetowego</mj-text>
+                    <mj-text padding-bottom="0px" font-size="14px" mj-class=" bold">Nr telefonu:
+                    <a href="tel: 458552369" style="font-weight:500;  color:#2A1D39; text-decoration: none">  458552369</a></mj-text>
+                    <mj-text padding-bottom="0px" font-size="14px" mj-class="bold">E-mail:
+                    <a href="mailto: sklep@modnepodlogi.pl" style=" font-weight:500; color:#2A1D39; text-decoration: none">sklep@modnepodlogi.pl</a></mj-text>
+                    <mj-text font-size="14px"><a href="" style="font-weight:500;  color:#2A1D39;"> Regulamin sklepu</a></mj-text>
+                </mj-column>
+            </mj-section>
+            <mj-include path="./src/partials/account.mjml" />
+
+            <mj-include path="./src/partials/guest_to_customer.mjml" />
+
+            <mj-include path="./src/partials/footer.mjml" />
+        </mj-container>
     </mj-body>
 </mjml>
